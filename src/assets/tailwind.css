@@ -3,3 +3,32 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@layer utilities {
+  .blue-stripe {
+    background: #0726b6;
+    height: 1vh;
+    width: 100vw;
+  }
+  .coral-stripe {
+    background: #ff3333;
+    height: 1vh;
+    width: 100vw;
+  }
+  .yellow-stripe {
+    background: #ffe600;
+    height: 1vh;
+    width: 100vw;
+  }
+  .body-background {
+    background-color: #fefbf3;
+  }
+
+  .dot {
+    height: 35px;
+    width: 35px;
+    background-color: #ffe600;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}

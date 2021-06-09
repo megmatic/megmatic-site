@@ -1,15 +1,24 @@
 <template>
-  <h1>hello, megmatic</h1>
+  <Header />
+  <h1>hello, i'm inside the main file</h1>
 </template>
 
 <script>
+import Header from '@/components/Header'
 
 export default {
   name: "App",
   components: {
-  },
+    Header,
+  } 
 };
 </script>
+
+<style>
+  @import url("https://use.typekit.net/zok6rfv.css");
+</style>
+
+<!-- STYLES FROM VUE
 
 <style>
 #app {
@@ -21,3 +30,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+ -->
