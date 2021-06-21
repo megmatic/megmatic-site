@@ -7,21 +7,24 @@
 @layer utilities {
   .blue-stripe {
     background: #0726b6;
-    height: 1vh;
+    height: 1.5vh;
     width: 100vw;
   }
   .coral-stripe {
     background: #ff3333;
-    height: 1vh;
+    height: 1.5vh;
     width: 100vw;
   }
   .yellow-stripe {
     background: #ffe600;
-    height: 1vh;
+    height: 1.5vh;
     width: 100vw;
   }
   .body-background {
     background-color: #fefbf3;
+  }
+  .footer-background {
+    background: #0726b6;
   }
 
   .dot {
@@ -30,5 +33,28 @@
     background-color: #ffe600;
     border-radius: 50%;
     display: inline-block;
+  }
+
+  .dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: #ffe600;
+    border-radius: 50%;
+    border: 0.33px solid #013737;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    z-index: 1;
+  }
+
+  .dotted-line {
+    border: 1px dashed #013737;
+    height: 60vh;
+    position: absolute;
+    top: 1px;
+    left: -36px;
+    animation-name: line_animation;
+    animation-duration: 4s;
+    animation-timing-function: linear;
   }
 }

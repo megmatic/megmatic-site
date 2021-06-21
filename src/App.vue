@@ -1,6 +1,5 @@
 <template>
   <Header />
-  <h1>hello, i'm inside the main file</h1>
 </template>
 
 <script>
